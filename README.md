@@ -11,7 +11,9 @@
 +  object로 다른 내용을 정의
 + 계산 방식: data class로 정의 -> +,-,*,/ (초기화 필요)
 + 화면에 대한 렌더링을 위한 viewModel 정의
-
+5. viewModle 구성
+  실제 수행에 필요한 계산 및 데이터 처리에 대해 정의함
+  MainActivity에서 click event에 대해 viweModel::onAation 을 정의해줌
 ## 화면 구성
 > 많이 사용하는 button에 대한 component 생성
 > 입력받는 창에 대한 component 생성
